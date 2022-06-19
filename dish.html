@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Life v5</title>
+    <link rel="stylesheet" text="text/css" href="dish_style.css">
+    <link rel="icon" href="#">
+</head>
+<body>
+    <img src="foXman-logo-light.png" width="150" height="75">
+    <div id="content">
+        <h1>Particle Life v5</h1>
+        <h2>Physics update</h2>
+        <i>by Vulpe Andrei</i><br><br>
+        <button class="bt b1" onclick="start_time()">Start time</button>
+        <button class="bt b2" onclick="stop_time()">Stop time</button>
+        <button class="bt b3" onclick="many()">Random</button>
+        <button class="bt b4" onclick="location.reload()">Refresh</button>
+        <br><br>
+        <canvas id="canvas" height="650" onclick="addp()" onmousemove="note(event)"></canvas>
+    </div>
+
+    <script src="functions_and_objects.js"></script>
+    <script src="lab_time.js"></script>
+</body>
+</html>
